@@ -2,6 +2,8 @@ let i=0;
 let BannerText="Passionate Full Stack Web Developer ☺";
 let speed=100;
 
+//for the fs banner
+
 typeWriter()
 
 function typeWriter() {
