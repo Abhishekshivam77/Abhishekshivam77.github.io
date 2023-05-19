@@ -50,7 +50,7 @@ function typeWriter() {
 window.open("https://drive.google.com/file/d/1M3UcghhRE2JjPQk9heP4_Q7Bv-vFeot3/view?usp=share_link")
   }
 
-  document.getElementById("resume-button-2").onclick=()=>{
+  document.getElementById("resume-link-2").onclick=()=>{
    window.open("https://drive.google.com/file/d/1M3UcghhRE2JjPQk9heP4_Q7Bv-vFeot3/view?usp=share_link")
   }
      
