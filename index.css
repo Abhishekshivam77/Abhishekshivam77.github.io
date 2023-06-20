@@ -42,10 +42,25 @@ body {
     z-index: 3;
   }
   
-  #resume-button-1 {
+  #resume-link-1 {
+    border-radius: 10px;
+    color: azure;
+
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+
+
+    text-decoration: none;
+  }
+  
+   #resume-button-1{
     border-radius: 10px;
     /* border: 2px solid rgb(48, 147, 183); */
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+border: 0px;
+    background-color: rgb(25, 212, 212);
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
+    /* color: #87d66f; */
+    /* text-decoration: none; */
   }
   
   .nav-colored {
@@ -138,6 +153,9 @@ body {
     border-radius: 10px;
     padding: 2% 2%;
     color: rgb(221, 230, 230);
+  }
+  #resume-link-2{
+    text-decoration: none;
   }
   
   #resume-button-2:hover,
