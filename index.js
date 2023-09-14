@@ -47,11 +47,11 @@ function typeWriter() {
   });
 
   document.getElementById("resume-button-1").onclick=()=>{
-window.open("https://drive.google.com/file/d/1M3UcghhRE2JjPQk9heP4_Q7Bv-vFeot3/view?usp=share_link")
+window.open("https://drive.google.com/file/d/1sM-19x_MgdjSG4PtG5Hkd38jL52w7M8d/view?usp=sharing")
   }
 
   document.getElementById("resume-button-2").onclick=()=>{
-   window.open("https://drive.google.com/file/d/1M3UcghhRE2JjPQk9heP4_Q7Bv-vFeot3/view?usp=share_link")
+   window.open("https://drive.google.com/file/d/1sM-19x_MgdjSG4PtG5Hkd38jL52w7M8d/view?usp=sharing")
   }
      
   
