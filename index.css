@@ -44,7 +44,8 @@ body {
   
   #resume-link-1 {
     border-radius: 10px;
-    color: azure;
+    color: none;
+    background-color: none;
 
     /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
 
@@ -53,11 +54,11 @@ body {
   }
   
    #resume-button-1{
-    border-radius: 10px;
+    border-radius: 7px;
     /* border: 2px solid rgb(48, 147, 183); */
     /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
 border: 0px;
-    background-color: rgb(25, 212, 212);
+    /* background-color: rgb(25, 212, 212); */
     /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
     /* color: #87d66f; */
     /* text-decoration: none; */
@@ -186,7 +187,7 @@ border: 0px;
     margin: 10% auto;
     text-align: center;
     margin-bottom: 16%;
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     border-radius: 2500px;
     padding: 2px;
     padding-bottom: 25px;
@@ -443,6 +444,8 @@ padding-left: 17%;
     transition: all 0.5s ease-out;
     z-index: 3;
   }
+
+  
   
   
   
@@ -488,7 +491,7 @@ padding-left: 17%;
     }
   }
   
-  @media only screen and (max-width: 900px) {
+  @media only screen and (min-width:481px) and (max-width: 900px) {
     #user-detail-name {
       font-size: 30px;
     }
@@ -511,8 +514,8 @@ padding-left: 17%;
     }
   
     #nav-menu>div {
-      margin-left: auto;
-      margin-right: auto;
+      /* margin-left: 3px; */
+      margin-right: 12px;
   
     }
   
@@ -538,6 +541,14 @@ padding-left: 17%;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+    }
+
+    @media only screen and (max-width: 480px){
+      #home{
+        display: flex;
+        flex-direction: column;
+      }
+
     }
   
 
